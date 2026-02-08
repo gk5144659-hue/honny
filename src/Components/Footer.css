@@ -1,0 +1,30 @@
+/* .footer{
+   background-color: gray;
+}
+
+.main-footer{
+   display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 15px 15px;
+}
+
+
+.main-footer ul li {
+    list-style: none;
+}
+
+.last-footer{
+    display: flex;
+    justify-content: center;
+} */
+
+/* Right to Left layout */
+.rtl {
+  direction: rtl;
+}
+
+/* Keep text readable (English) */
+.ltr {
+  direction: ltr;
+}
