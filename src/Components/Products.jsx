@@ -28,7 +28,7 @@ const products =[
     title: "Watch",
     price: 1999,
     desc: "Smart fitness watch",
-    image: "https://images-cdn.ubuy.co.in/67e6749b9610d0a8560cf048-poedagar-men-watch-luxury-business.jpg"
+    image: "https://www.horusstraps.in/cdn/shop/files/rolex-gmt-batman-blue-rubber-watch-band-strap_1000x_86d056ca-41f9-4c68-83ff-891552c02067_800x.jpg?v=1719577784"
   },
   {
     id: 5,
