@@ -10,6 +10,7 @@ import Center from "./Components/Center.jsx";
 import Products from "./Components/Products.jsx";
 import CartPage from "./Components/CartPage.jsx";
 import Footer from "./Components/Footer.jsx";
+import ProductDetails from "./Components/ProductDetails.jsx";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -53,6 +54,11 @@ function App() {
             />
           }
         />
+         <Route
+           path= "/product/:id"
+           element={< ProductDetails addToCart={addToCart}/>}
+         
+         />
 
         <Route
           path="/cart"
