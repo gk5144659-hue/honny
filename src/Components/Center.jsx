@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import online2 from "../Assets/online2.jpg";
-import online1 from "../Assets/online1.jpg";
+import online2 from "../assets/online2.jpg";
+import online1 from "../assets/online1.jpg";
 
 const images = [online2, online1];
 
