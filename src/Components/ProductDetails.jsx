@@ -21,11 +21,11 @@ const ProductDetails = ({ addToCart }) => {
         <img
           src={selectedImage}
           alt={product.title}
-          className="w-full max-w-md rounded-2xl shadow-lg"
+          className="w-full max-w-full sm:max-w-md rounded-2xl shadow-lg"
         />
 
         {/* Thumbnails */}
-        <div className="flex gap-4 mt-4">
+        <div className="flex flex-wrap gap-4 mt-4">
           {product.images.map((img, index) => (
             <img
               key={index}
